@@ -1,0 +1,65 @@
+export const resumeData = {
+  personal: {
+    name: "KIRTI SHARMA",
+    phone: "+917617688225",
+    location: "Ghaziabad, U.P.",
+    email: "kirti2001sharma@gmail.com",
+    linkedin: "LinkedIn",
+    github: "GitHub",
+  },
+  education: [
+    {
+      degree: "Bachelor of Technology (B.Tech.)",
+      institution: "Echelon Institute of Technology, Faridabad",
+      field: "Computer Science",
+      period: "2019 - 2023",
+    },
+    {
+      degree: "Senior Secondary",
+      institution: "Kendriya Vidyalaya, O.F.M",
+      field: "P.C.M (Computer Science)",
+      period: "2017 - 2019",
+    },
+  ],
+  skills: {
+    technical: [
+      "HTML5 & CSS",
+      "JavaScript",
+      "React.JS",
+      "Next.JS",
+      "Lexical",
+      "TypeScript",
+      "Redux",
+      "Tanstack query",
+      "Node.JS",
+    ],
+    other: [
+      "TailwindCSS",
+      "SCSS",
+      "Product Management",
+      "Teaching",
+      "Documentation",
+    ],
+    tools: ["Git", "GitHub", "VS Code"],
+  },
+  experience: {
+    title: "Software Engineer",
+    company: "GrowthX",
+    period: "Mar 2023 - Present",
+    location: "Bengaluru — Remote",
+    achievements: [
+      "Co-developed an in-house Notion-like text editor using Lexical, serving 2000+ members with 200-300 weekly active users",
+      "Spearheaded the GrowthX Events Platform development, serving 3,000+ members weekly",
+      "Built internal admin dashboard for project evaluation, speeding up the process by 70%",
+      "Led development of Project Submission Platform with comprehensive features",
+      "Created note-taking platform with sharing and integrated editor",
+      "Upgraded DRM-protected video player with custom Shaka Player controls",
+      "Built in-house calendar system used by 3000+ members",
+      "Developed internal admin dashboard for event scheduling and CRUD operations",
+      "Created Job board for listing jobs and tracking applications",
+    ],
+  },
+  achievements: [
+    "Taught programming (HTML, CSS, JS) to 50+ students worldwide during Covid-19 via Superprof",
+  ],
+};
